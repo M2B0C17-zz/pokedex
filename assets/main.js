@@ -33,9 +33,9 @@ $(document).ready(function(){
 		data.forEach(function(elementPokes){
 			var nombre = elementPokes.name; // nombre pokemonsss
 			// Fotos
-			$('#pokesSec2').append("<div id='pokeSecFotos' class='col-md-2'><div class='row'><img class='fotosPokemonss img-responsive' src='http://img.pokemondb.net/artwork/" + nombre + ".jpg'></div></div>");
+			$('#pokesSec2').append("<div id='pokeSecFotos' class='col-md-2'><div class='row nombresito'><img class='fotosPokemonss img-responsive' style='width: 200px; height: 200px;' src='http://img.pokemondb.net/artwork/" + nombre + ".jpg'></div></div>");
 			// Nombre de pokes
-			$('#pokeSecFotos').append("<h2>" + nombre + "</h2>");
+			$('.nombresito').append("<h2 class='nombrePokes'>" + nombre + "</h2>");
 		})
 	}
 

@@ -48,9 +48,15 @@ input.empty {
 #pokeSecFotos{
 	margin: 2%;
 	margin-left: 5%;
-	width: 200px;
-	height: 200px;
 }
+
+/* Nombre Fotos */
+.nombrePokes{
+	font-size: 25px;
+	color: #36a4d3;
+	font-weight: lighter;
+}
+
 
 footer{
 	color: #b685c6;
