@@ -39,9 +39,10 @@ $(document).ready(function(){
 		})
 	}
 
-	/* Modal */
+	/* Modal 
 	$(function(){
 		$('')
 	})
+	*/
 
 });
