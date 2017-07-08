@@ -48,7 +48,8 @@ input.empty {
 #pokeSecFotos{
 	margin: 2%;
 	margin-left: 5%;
-
+	width: 200px;
+	height: 200px;
 }
 
 footer{
