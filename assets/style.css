@@ -1,0 +1,52 @@
+body{
+	background-color: whitesmoke;
+}
+
+.container{
+	width: 65%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: whitesmoke;
+	padding: 4%;
+}
+
+.container img{
+	max-width: 250px;
+	padding: 4px;
+}
+
+#elementos{
+	padding: 2%;
+}
+
+.titulo1{
+	color: #ef66b9;
+	font-weight: lighter;
+	font-size: 60px;
+}
+
+/* Input Icono Search*/
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+/* A-Z */
+.cajitaAZ{
+	background-color: #7aa44a;
+	width: 7%;
+	height: 5%;
+	margin-left: 40%;
+	margin-top: 1%;
+}
+
+.aZ{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+footer{
+	color: #b685c6;
+}
