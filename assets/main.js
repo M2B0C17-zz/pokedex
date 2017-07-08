@@ -33,7 +33,7 @@ $(document).ready(function(){
 		data.forEach(function(elementPokes){
 			var nombre = elementPokes.name; // nombre pokemonsss
 
-			$('#pokesSec2').append("<div id='pokeSecFotos' class='col-md-3'><div class='row'><img class='fotosPokemonss' src='http://img.pokemondb.net/artwork/" + nombre + ".jpg'></div></div>");
+			$('#pokesSec2').append("<div id='pokeSecFotos' class='col-md-2'><div class='row'><img class='fotosPokemonss img-responsive' src='http://img.pokemondb.net/artwork/" + nombre + ".jpg'></div></div>");
 
 
 		})
